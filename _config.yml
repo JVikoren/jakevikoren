@@ -1,7 +1,7 @@
 title: Jake Vikoren
 description: Machine Learning Engineer — AI for Scientific Discovery
 url: "https://jvikoren.github.io"
-baseurl: ""
+baseurl: "/jakevikoren"
 
 # Exclude non-site files from the build
 exclude:
