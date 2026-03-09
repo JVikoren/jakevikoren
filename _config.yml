@@ -5,8 +5,7 @@ baseurl: "/jakevikoren"
 
 # Exclude non-site files from the build
 exclude:
-  - plan.md
+  - notes.md
   - README.md
-  - "Letter_of_Reccomendation.pdf"
   - Gemfile
   - Gemfile.lock

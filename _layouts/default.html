@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,9 +9,12 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
 </head>
+
 <body>
 
   <nav class="nav" id="nav">
@@ -25,10 +29,14 @@
       </button>
 
       <ul class="nav-links" id="nav-links">
-        <li><a href="{{ '/#about' | relative_url }}"        {% if page.page_id == 'home' %}class="active"{% endif %}>About</a></li>
-        <li><a href="{{ '/projects.html' | relative_url }}" {% if page.page_id == 'projects' %}class="active"{% endif %}>Projects</a></li>
-        <li><a href="{{ '/publications.html' | relative_url }}" {% if page.page_id == 'publications' %}class="active"{% endif %}>Publications</a></li>
-        <li><a href="{{ '/resume.html' | relative_url }}"   {% if page.page_id == 'resume' %}class="active"{% endif %}>Resume</a></li>
+        <li><a href="{{ '/#about' | relative_url }}" {% if page.page_id=='home' %}class="active" {% endif %}>About</a>
+        </li>
+        <li><a href="{{ '/projects.html' | relative_url }}" {% if page.page_id=='projects' %}class="active" {% endif
+            %}>Projects</a></li>
+        <li><a href="{{ '/publications.html' | relative_url }}" {% if page.page_id=='publications' %}class="active" {%
+            endif %}>Publications</a></li>
+        <li><a href="{{ '/resume.html' | relative_url }}" {% if page.page_id=='resume' %}class="active" {% endif
+            %}>Resume</a></li>
       </ul>
     </div>
   </nav>
@@ -50,4 +58,5 @@
 
   <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 </body>
+
 </html>
