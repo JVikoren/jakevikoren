@@ -1,0 +1,12 @@
+title: Jake Vikoren
+description: Machine Learning Engineer — AI for Scientific Discovery
+url: "https://jvikoren.github.io"
+baseurl: ""
+
+# Exclude non-site files from the build
+exclude:
+  - plan.md
+  - README.md
+  - "Letter_of_Reccomendation.pdf"
+  - Gemfile
+  - Gemfile.lock
