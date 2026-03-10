@@ -48,10 +48,45 @@ page_id: projects
         </div>
       </div>
 
+      <!-- 3D Brain Tumor Segmentation -->
+      <div class="project-card fade-in delay-1">
+        <div class="project-body">
+          <p class="project-number">03</p>
+          <h2 class="project-title">3D Brain Tumor Segmentation</h2>
+          <p class="project-desc">
+            A hybrid quantum-classical self-supervised learning architecture modeled after SimCLR,
+            augmented with a variational quantum circuit (VQC) in the projector head of each contrastive
+            learning arm. Using a 3D CNN encoder and an MLP/VQC projector, this proof of concept
+            explored whether quantum ansatze could improve learned representations for volumetric MRI
+            segmentation. Presented at the HIMSS international health conference. Downstream performance
+            did not improve with the VQC while latency increased, highlighting the current limitations
+            of NISQ methods for contrastive learning.
+          </p>
+          <div class="project-tags">
+            <span class="tag">PyTorch</span>
+            <span class="tag">PennyLane</span>
+            <span class="tag">Quantum ML</span>
+            <span class="tag">SimCLR</span>
+            <span class="tag">3D CNN</span>
+            <span class="tag">Medical Imaging</span>
+          </div>
+        </div>
+        <div class="project-links">
+          <a href="{{ '/projects/brain-tumor-segmentation.html' | relative_url }}" class="project-link">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+              <polyline points="15 3 21 3 21 9" />
+              <line x1="10" y1="14" x2="21" y2="3" />
+            </svg>
+            Details
+          </a>
+        </div>
+      </div>
+
       <!-- Skin Cancer Classification -->
       <div class="project-card fade-in delay-1">
         <div class="project-body">
-          <p class="project-number">02</p>
+          <p class="project-number">04</p>
           <h2 class="project-title">Skin Cancer Classification</h2>
           <p class="project-desc">
             A computer vision classifier using MobileNet fine-tuned with the fastai framework,
